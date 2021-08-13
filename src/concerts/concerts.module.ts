@@ -11,7 +11,7 @@ import { ConcertsService } from './concerts.service';
   ],
   imports:[
     TypeOrmModule.forFeature(
-      [
+      [        
         ConcertEntity
       ]
       )
